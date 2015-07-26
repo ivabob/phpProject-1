@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Записване </title>
+	<meta charset="UTF-8">
+</head>
+<body>
+<h1 style="color:blue">CodeWeek</h1>
+<h4 style="color:blue"> Форма за регистрация за участие в безплатен курс в рамките на Code Week 2015 година </h4>
+	<form action="index.php" method="post">
+		<input type="text" name="name" /> Име* <br/>
+		<br/>
+		<input type="text" name="surname" /> Фамилия* <br/>
+		<br/>
+		<input type="email" name="email" /> e-mail* <br/>
+		<br/>
+		<input type="text" name="phone" /> Телефон* <br/>
+		<br/>
+		<select name="city"> */*optional
+  			<option value="sofia">София</option>
+ 			<option value="vratsa">Враца</option>
+  			<option value="plovdiv">Пловдив</option>
+  			<option value="mezdra">Мездра</option>
+		</select> Населено място <br/>
+		<select name="coarse">
+  			<option value="php">PHP/MYSQL</option>
+ 			<option value="java">Java</option>
+  			<option value="android">Android</option>
+  			<option value="wordpress">Wordpress/HTML</option>
+		</select> Тема на курса <br/>
+		<div>
+		 Опишете на кратко Вашият опит в програмирането
+		<input type="textarea" name="background" /> <br/>
+		Защо искате да се включите в курса?
+		<input type="textarea" name="background" /> 
+		<br/>
+		<br/>
+		<input type="submit" value="Регистрирай ме" />
+</div>
+</form>
+</body>
+</html>
